@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T11:18:41.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="L8IheEwxcnH8ItSbyEch" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-02T11:45:28.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="CNz2aDCL7973JjptMfI5" version="17.5.0" type="github" pages="2">
   <diagram id="D-YSAC3Tt-AkZMAXTdBi" name="Baseline business architecture">
     <mxGraphModel dx="1426" dy="1967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -477,104 +477,88 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-9" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="-240" width="1480" height="640" as="geometry" />
+          <mxGeometry x="-70" y="-240" width="990" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="-Ero79iYHcZYVaGGVBdP-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="-570" width="30" height="60" as="geometry" />
+        <mxCell id="-Ero79iYHcZYVaGGVBdP-7" value="Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-520" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hk0U0WXkImM8BT9qj4iI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=32;endArrow=classic;endFill=1;endSize=5;" parent="1" source="6cCv-zb4L78r9DvCeI2A-1" target="iqCx426RshmX_c__QB7A-20" edge="1">
+        <mxCell id="9kltHGWKHisSHC2a1klO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=open;endFill=0;endSize=11;" edge="1" parent="1" source="6cCv-zb4L78r9DvCeI2A-1" target="-Ero79iYHcZYVaGGVBdP-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dw6wfxkelPqigAwVP0yK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endSize=11;endArrow=open;endFill=0;" edge="1" parent="1" source="6cCv-zb4L78r9DvCeI2A-1" target="-Ero79iYHcZYVaGGVBdP-7">
+        <mxCell id="9kltHGWKHisSHC2a1klO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=classicThin;endFill=1;endSize=8;" edge="1" parent="1" source="6cCv-zb4L78r9DvCeI2A-1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="280" y="-550" />
-            </Array>
+            <mxPoint x="140" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6cCv-zb4L78r9DvCeI2A-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Procument request&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=36;strokeColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
-          <mxGeometry x="200" y="-360" width="180" height="100" as="geometry" />
+        <mxCell id="6cCv-zb4L78r9DvCeI2A-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Initiate Procument request&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=36;strokeColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-730" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WxOtCr6gWdZPrnxGbRdi-2" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="330" y="-190" width="220" height="340" as="geometry" />
+          <mxGeometry x="-55" y="-754" width="220" height="340" as="geometry" />
         </mxCell>
         <mxCell id="AzEUirGXayemHVoskkGQ-1" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
           <mxGeometry width="220" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="AzEUirGXayemHVoskkGQ-2" value="Receive purchase request" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
+        <mxCell id="AzEUirGXayemHVoskkGQ-2" value="Originates Procurement Request" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
           <mxGeometry x="20" y="40" width="180" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="AzEUirGXayemHVoskkGQ-3" value="Assess if purchase is for&lt;br&gt;a specific staff member" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
+        <mxCell id="AzEUirGXayemHVoskkGQ-3" value="Assess if purchase is for&lt;br&gt;a specific staff member or for department" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
           <mxGeometry x="20" y="142.5" width="180" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="AzEUirGXayemHVoskkGQ-4" value="&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Line Manager to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;decide if role is eligible&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;for specialist&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;consideration&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div class=&quot;page&quot; title=&quot;Page 17&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;br&gt;    &lt;/div&gt;&lt;br&gt;   &lt;/div&gt;&lt;br&gt;  &lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
+        <mxCell id="AzEUirGXayemHVoskkGQ-4" value="&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;Line Manager to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;decide if role is eligible&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;for specialist&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;arialmt&amp;#34; ; font-size: 7pt&quot;&gt;consideration&lt;br&gt;&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
           <mxGeometry x="20" y="240" width="180" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="WxOtCr6gWdZPrnxGbRdi-1" value="Procurement Assessment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
+        <mxCell id="WxOtCr6gWdZPrnxGbRdi-1" value="Departmental Assessment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WxOtCr6gWdZPrnxGbRdi-2" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;endSize=24;" parent="1" source="iqCx426RshmX_c__QB7A-1" target="iqCx426RshmX_c__QB7A-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1470" y="-20" />
-              <mxPoint x="1470" y="-335" />
+              <mxPoint x="760" y="-335" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="zjY6yfEEwyqm3zEjhFww-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=diamond;endFill=1;endSize=12;" edge="1" parent="1" source="iqCx426RshmX_c__QB7A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="37.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-1" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="-200" width="215" height="500" as="geometry" />
+          <mxGeometry x="660" y="-195" width="200" height="465" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-5" value="Assess Supplier" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
-          <mxGeometry x="1117.5" y="-150" width="180" height="90" as="geometry" />
+          <mxGeometry x="672.5" y="-160" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-6" value="Receive goods / licence" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="180" width="180" height="90" as="geometry" />
+          <mxGeometry x="670" y="170" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-9" value="Procure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="-200" width="150" height="30" as="geometry" />
+          <mxGeometry x="687.5" y="-195" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N-B5HiBgXXEQ6W2cxxwk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=11;" edge="1" parent="1" source="iqCx426RshmX_c__QB7A-10" target="-Ero79iYHcZYVaGGVBdP-7">
+        <mxCell id="9kltHGWKHisSHC2a1klO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;endArrow=open;endFill=0;endSize=12;" edge="1" parent="1" source="iqCx426RshmX_c__QB7A-10" target="-Ero79iYHcZYVaGGVBdP-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="-550" />
+              <mxPoint x="400" y="-500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-10" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Procurement completed notification&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=36;strokeColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-360" width="180" height="100" as="geometry" />
+          <mxGeometry x="310" y="-361" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-12" value="Order via Third Party" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
-          <mxGeometry x="1117.5" y="-37.5" width="180" height="90" as="geometry" />
+          <mxGeometry x="672.5" y="-47.5" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-13" value="Order via Supplier" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="70" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="iqCx426RshmX_c__QB7A-15" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-50" y="-190" width="220" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="iqCx426RshmX_c__QB7A-16" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;" parent="iqCx426RshmX_c__QB7A-15" vertex="1">
-          <mxGeometry width="220" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="iqCx426RshmX_c__QB7A-20" value="Assess Procurement Type Requested" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="iqCx426RshmX_c__QB7A-15" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-12" value="Software &amp;amp; Subscriptions" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="iqCx426RshmX_c__QB7A-15" vertex="1">
-          <mxGeometry x="25" y="150.0026315789474" width="170" height="78.21947368421051" as="geometry" />
-        </mxCell>
-        <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-11" value="Hardware / Device Procurement" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="iqCx426RshmX_c__QB7A-15" vertex="1">
-          <mxGeometry x="25" y="59.995789473684205" width="170" height="66.3157894736842" as="geometry" />
-        </mxCell>
-        <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-14" value="Other Procurement Items" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="iqCx426RshmX_c__QB7A-15" vertex="1">
-          <mxGeometry x="30" y="249.99638157894736" width="170" height="78.21947368421051" as="geometry" />
+          <mxGeometry x="670" y="60" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-22" value="&lt;font style=&quot;font-size: 32px&quot;&gt;Procurement&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="690" y="-240" width="60" height="30" as="geometry" />
+          <mxGeometry x="384" y="-240" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iqCx426RshmX_c__QB7A-23" value="&lt;h1&gt;Issue List&lt;/h1&gt;&lt;p&gt;1. Longer procurement process (Bheki)&lt;br&gt;2. Resistance to change due to collapsing of roles in FXPlus (Tinashe)&lt;br&gt;3. Adapting to new process through changing documentation (Dewald)&lt;br&gt;4. The need to up-skill staff (Linda)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=32;" parent="1" vertex="1">
           <mxGeometry x="100" y="500" width="1020" height="330" as="geometry" />
         </mxCell>
         <mxCell id="Hk0U0WXkImM8BT9qj4iI-7" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="690" y="-195" width="215" height="540" as="geometry" />
+          <mxGeometry x="275" y="-190" width="215" height="540" as="geometry" />
         </mxCell>
         <mxCell id="Hk0U0WXkImM8BT9qj4iI-1" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;" parent="Hk0U0WXkImM8BT9qj4iI-7" vertex="1">
           <mxGeometry width="215" height="540" as="geometry" />
@@ -597,17 +581,50 @@
         <mxCell id="guWDYQCRXRQ24qXpFn9M-3" value="Assess Budget" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Hk0U0WXkImM8BT9qj4iI-7" vertex="1">
           <mxGeometry y="-8.384615384615385" width="210" height="31.153846153846157" as="geometry" />
         </mxCell>
-        <mxCell id="sCJUT_0qZdQuyHSpLcAp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AzEUirGXayemHVoskkGQ-1" target="Hk0U0WXkImM8BT9qj4iI-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sCJUT_0qZdQuyHSpLcAp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.326;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.362;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hk0U0WXkImM8BT9qj4iI-1" target="iqCx426RshmX_c__QB7A-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sCJUT_0qZdQuyHSpLcAp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AzEUirGXayemHVoskkGQ-1">
+        <mxCell id="sCJUT_0qZdQuyHSpLcAp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.326;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hk0U0WXkImM8BT9qj4iI-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="-20.499999999999964" as="sourcePoint" />
-            <mxPoint x="310" y="-20.499999999999964" as="targetPoint" />
+            <mxPoint x="660" y="-14" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="-14" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9kltHGWKHisSHC2a1klO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=classicThin;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AzEUirGXayemHVoskkGQ-1" target="iqCx426RshmX_c__QB7A-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="-420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kltHGWKHisSHC2a1klO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=classicThin;endFill=1;endSize=8;" edge="1" parent="1" source="iqCx426RshmX_c__QB7A-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iqCx426RshmX_c__QB7A-16" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="-190" width="220" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="iqCx426RshmX_c__QB7A-20" value="Assess Procurement Type Requested" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="-190" width="150" height="31.76470588235294" as="geometry" />
+        </mxCell>
+        <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-12" value="Software &amp;amp; Subscriptions" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="-25" y="29.996315789473712" width="170" height="82.82061919504642" as="geometry" />
+        </mxCell>
+        <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-11" value="Hardware / Device Procurement" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="-59.99504643962848" width="170" height="70.21671826625386" as="geometry" />
+        </mxCell>
+        <mxCell id="4Kmhoz1Lq8iuSkru-7Y0-14" value="Other Procurement Items" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" parent="1" vertex="1">
+          <mxGeometry x="-25" y="130.0020510835913" width="170" height="82.82061919504642" as="geometry" />
+        </mxCell>
+        <mxCell id="9kltHGWKHisSHC2a1klO-6" value="Receive prcurement request" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-140.21504643962848" width="170" height="70.21671826625386" as="geometry" />
+        </mxCell>
+        <mxCell id="9kltHGWKHisSHC2a1klO-21" value="Procurement Request" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-732" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9kltHGWKHisSHC2a1klO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;endArrow=diamond;endFill=1;endSize=12;" edge="1" parent="1" source="AzEUirGXayemHVoskkGQ-2" target="9kltHGWKHisSHC2a1klO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9kltHGWKHisSHC2a1klO-26" value="Procurement log" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-57.5" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
